@@ -1,0 +1,172 @@
+.menu{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba( 0, 0, 0, 0.1);
+}
+
+.menu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight:bold;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f10ead33;
+    padding: 15px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;  
+    font-family: system-ui, sans-serif;
+}
+
+caption {
+    text-align: left;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+th, td {
+    padding: 10px 12px;  
+    border-bottom: 1px solid #dde1ea;
+    text-align: left;
+}
+
+thead th {
+    background: #e7ecfd;
+}
+
+tbody tr:nth-child(even) {
+    background: #f4f6fd;  
+}
+
+tbody tr:hover {
+    background: #fddbf3;  
+}
+
+.numero {
+    text-align: right; 
+}
+
+.tabla-contenedor {
+    overflow-x: auto;  
+}
+
+.horario{
+    padding-top: 30px;
+}
+
+.horario table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: system-ui, sans-serif;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+.horario caption {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-bottom: 12px;
+    color: #700540;
+}
+
+.horario th, .horario td {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.horario thead th {
+    background: #f52c9a;
+    color: #ffffff;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.horario tbody th {
+    background: #feecfa;
+    color: #1e293b;
+    font-size: 0.9em;
+    white-space: nowrap;
+    min-width: 105px;
+}
+
+.horario tbody tr:nth-child(even) td:not(.tecnica):not(.transversal):not(.proyecto):not(.libre):not(.pausa) {
+    background: #f4f6fd;
+}
+
+.horario .tecnica {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.horario .transversal {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.horario .proyecto {
+    background: #fce7f3;
+    color: #9d174d;
+}
+
+.horario .libre {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.horario .pausa th,
+.horario .pausa td {
+    text-align: center;
+    font-style: italic;
+    background: #f3f4f6;
+    color: #4b5563;
+}
+
+.horario .ambiente {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.8em;
+    color: #6b7280;
+}
+
+.horario tbody td:hover {
+    filter: brightness(0.95);
+    cursor: default;
+}
+
+.horario tfoot td {
+    background: #e5e7eb;
+    color: #374151;
+    font-size: 0.85em;
+    text-align: right;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.tabla-contenedor {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 8px;
+}
+
+.horario table {
+    min-width: 850px;
+}
